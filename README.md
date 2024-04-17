@@ -31,5 +31,6 @@ The `deprecated_files` folder contains older versions of notebooks and data anal
 
 ### How to Run
 For this project simply clone the repo and open up each notebook you'd like to run in the code editor of your choice.
+
 __Note:__ in order to run these files you need some prerequisite libraries, please run pip/pip3 install [library], some include tensorflow, sklearn, and word2vec, among others.
           Python 3.9 or 3.10 is recommended. If on the M chip series of macbooks (M1-M3) please download with `pip install tensorflow-metal`.
