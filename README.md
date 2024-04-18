@@ -5,11 +5,12 @@ In recent years, cyberbullying has become a pervasive issue affecting many indiv
 ## Project Structure Overview
 
 ### Python Notebooks
-- `concat_data.ipynb`: Implements the BiLSTM model training, and including some preprocessing, model setup, and training loop, as well as evaluation and graphing of the model's preformance.
+- `bi_lstm_model.ipynb`: Implements the BiLSTM model training, and including some preprocessing, model setup, and training loop, as well as evaluation and graphing of the model's preformance.
 - `vader_sentiment_analysis.ipynb`: Creates and Evaluates the Vader Sentiment Model on our testing data.
 - `lr_model.ipynb`: Our implementation of a Logistic Regression Model as well as it's testing.
-- `google_emotion_dataset_preprocessing.ipynb`: Preprocessing for our google emotions dataset, saves new a new file after processing.
-- `data_preprocessing.ipynb`: Takes in our Cyberbullying Dataset and preprocesses it for usage, saving to a new file after processing.
+- `google_emotion_dataset_preprocessing_pt1.ipynb`: Preprocessing for our google emotions dataset, saves new a new file after processing.
+- `google_emotion_dataset_preprocessing_pt2.ipynb`
+- `twitter_data_preprocessing.ipynb`: Takes in our Cyberbullying Twitter Dataset and preprocesses it for usage, saving to a new file after processing.
 
 ### Datasets
 Our models are trained and evaluated using several datasets, some of these are the final datasets after preprocessing:
